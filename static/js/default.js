@@ -18,12 +18,13 @@ var fig_price = parseFloat(json_obj.price)/1350000
 console.log("BNB Price: "+bnb_price);
 console.log("FIG Price: "+fig_price);
 
-window.onload = function() {
-    function TokenFigPrice(){
-        document.getElementById("fig_token_value").innerHTML = fig_price.toFixed(5);
-    };
-    TokenFigPrice();
-}
+//window.onload = function() {
+//    function TokenFigPrice(){
+//        document.getElementById("fig_token_value").innerHTML = fig_price.toFixed(5);
+//        document.getElementById("fig_token_value_top").innerHTML = "Token Price: $" + fig_price.toFixed(5)
+//    };
+//    TokenFigPrice();
+//}
 
 var mcc_metamask_prices = {
     'bnb' : parseFloat(json_obj.price),
