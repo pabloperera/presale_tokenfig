@@ -126,5 +126,20 @@ border-color: #0069d9;
   .card-fig {
     background-color: #ca92ff40 !important;
     margin-top: 15px;
+  }  
+  ul.how-fig {
+    padding: 10px;
   }
-  
+  ul.how-fig li {
+    color: #fff;
+    margin: 5px 5px 15px;
+  }
+  ul.how-fig li a {
+    color: #53f6c6;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  ul.how-fig li a:hover {
+    color: #45cca3;
+    text-decoration: none;
+  }
