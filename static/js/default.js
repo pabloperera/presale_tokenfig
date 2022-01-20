@@ -4,7 +4,6 @@ AFFWP.expiration = 90;
 AFFWP.debug = 0;
 AFFWP.referral_credit_last = 0;
 
-
 url_bnb_price = "https://api.binance.com/api/v3/ticker/price?symbol=BNBUSDT"
 function Get(yourUrl){
     var Httpreq = new XMLHttpRequest(); // a new request
