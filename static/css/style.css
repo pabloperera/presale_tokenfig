@@ -148,3 +148,17 @@ border-color: #0069d9;
     color: #45cca3;
     text-decoration: none;
   }
+
+  .flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+  }
+
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 5px solid #FFFF00;
+    padding: 10px;
+    }
